@@ -7,7 +7,6 @@ Early Stage Flame Dataset (ESFD) is a newly published dataset consisting of fire
 | Train        |  97 (32.34%) |     203 (67.66%) |       300 (60%) |
 | Validation   |  16 (32.00%) |      34 (68.00%) |        50 (10%) |
 | Test         |  61 (41.06%) |      89 (58.94%) |       150 (30%) |
-| :----------- | :----------: | ---------------: | --------------: |
 | Total        | 174 (34.80%) |     326 (65.20%) |             500 |
 
 In Fig. 1. and Fig. 2. some examples of images with and without fire are provided, respectively. The data labeling process is conducted with Segments.ai. The ground truth images are normalized to values 0 and 1, where pixels representing flame are labeled as 1, while pixels representing non-flame objects are labeled as 0. The total number of pixels in the dataset, as represented with ground truth images, is 131, 072, 000.
@@ -39,8 +38,9 @@ When utilizing our dataset, we kindly request that you acknowledge our contribut
   pages={1--6},
   year={2023},
   organization={IEEE}
-}
+}```
 
+```bibtex
 @inproceedings{kapo2023early,
   title={Early stage flame segmentation with deep learning and intel's openvino toolkit},
   author={Kapo, Medina and {\v{S}}abanovi{\'c}, Adnan and Akagic, Amila and Buza, Emir},
