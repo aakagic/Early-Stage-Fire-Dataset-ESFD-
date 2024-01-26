@@ -38,7 +38,8 @@ When utilizing our dataset, we kindly request that you acknowledge our contribut
   pages={1--6},
   year={2023},
   organization={IEEE}
-}```
+}
+```
 
 ```bibtex
 @inproceedings{kapo2023early,
@@ -48,7 +49,8 @@ When utilizing our dataset, we kindly request that you acknowledge our contribut
   pages={1--6},
   year={2023},
   organization={IEEE}
-}```
+}
+```
 
 ## Results of DeepLabv3+ with Weighted Cross-Entropy
 
