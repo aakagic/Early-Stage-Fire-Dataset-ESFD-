@@ -1,4 +1,4 @@
-# Early Stage Flame Dataset ESFD
+# Early Stage Flame Dataset (ESFD)
 
 Early Stage Flame Dataset (ESFD) is a newly published dataset consisting of fire and non-fire images that have occurred in both forest and urban environments collected via the Internet. Images are captured in real-life situations by firefighters or journalists in the area of the Balkan Peninsula. The total number of images is 500, of which 300 images (60%) were used for training, 50 (10%) for validation, and 150 (30%) for testing. The details about the subsets in the dataset are provided below. 
 
@@ -13,7 +13,7 @@ In Fig. 1. and Fig. 2. some examples of images with and without fire are provide
 
 ![Examples of images in the dataset](/imgs/ESFD.png "Examples of different categories of images.")
 
-The distribution of pixels in the dataset is presented in the Table below. Table shows that the number of flame pixels is significantly lower than the number of non-flame pixels, with a ratio of approximately 1:111. Most images in our dataset have minimal indicators of flame presence, making this dataset unique in the literature. It is evident that this dataset is imbalanced, posing a greater challenge for detection. Unlike existing datasets, such as Corsican Fire DataBase (CFDB), which only contain fire images and have a higher percentage of fire pixels (around 23%) and non-fire pixels (77%),our dataset includes images without flame pixels, which is crucial for accurately detecting early signs of fire presence and avoiding false alarms. This is particularly important in early fire detection to alert firefighters in a timely manner.
+The distribution of pixels in the dataset is presented in the Table below. Table shows that the number of flame pixels is significantly lower than the number of non-flame pixels, with a ratio of approximately 1:111. Most images in our dataset have minimal indicators of flame presence, making this dataset unique in the literature. It is evident that this dataset is imbalanced, posing a greater challenge for detection. Unlike existing datasets, such as Corsican Fire DataBase (CFDB), which only contain fire images and have a higher percentage of fire pixels (around 23%) and non-fire pixels (77%), our dataset includes images without flame pixels, which is crucial for accurately detecting early signs of fire presence and avoiding false alarms. This is particularly important in early fire detection to alert firefighters in a timely manner.
 
 |              | Flame pixels | Non-flame pixels | Total pixels |
 | :----------- | :----------: | ---------------: | -----------: |
