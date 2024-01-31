@@ -22,7 +22,7 @@ The distribution of pixels in the dataset is presented in the Table below. Table
 
 ## How to download the dataset?
 
-The link to the dataset is provided with Google Drive link: will be provided shortly
+The link to the dataset is provided with Google Drive link: https://drive.google.com/drive/folders/1DycL7nTXI0kOxTNlpz3GnOgYuFXwd5ID?usp=sharing
 
 ## How to cite our work?
 
