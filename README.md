@@ -2,14 +2,15 @@
 
 Early Stage Flame Dataset (ESFD) is a newly published dataset consisting of fire and non-fire images that have occurred in both forest and urban environments collected via the Internet. Images are captured in real-life situations by firefighters or journalists in the area of the Balkan Peninsula. The total number of images is 500, of which 300 images (60%) were used for training, 50 (10%) for validation, and 150 (30%) for testing. The details about the subsets in the dataset are provided below. 
 
-| Subset       | Flame images | Non-flame images | Total in subset |
-| :----------- | :----------: | ---------------: | --------------: |
-| Train        |  97 (32.34%) |     203 (67.66%) |       300 (60%) |
-| Validation   |  16 (32.00%) |      34 (68.00%) |        50 (10%) |
-| Test         |  61 (41.06%) |      89 (58.94%) |       150 (30%) |
-| Total        | 174 (34.80%) |     326 (65.20%) |             500 |
+| Subset       | Flame images   | Non-flame images   | Total in subset |
+| :----------- | :----------:   | ---------------:   | --------------: |
+| Train        |  97 (32.34%)   |     203 (67.66%)   |       300 (60%) |
+| Validation   |  16 (32.00%)   |      34 (68.00%)   |        50 (10%) |
+| Test         |  59^* (41.06%) |      91^* (58.94%) |       150 (30%) |
+| Total        | 174 (34.80%)   |     326 (65.20%)   |             500 |
 
 In Fig. 1. and Fig. 2. some examples of images with and without fire are provided, respectively. The data labeling process is conducted with Segments.ai. The ground truth images are normalized to values 0 and 1, where pixels representing flame are labeled as 1, while pixels representing non-flame objects are labeled as 0. The total number of pixels in the dataset, as represented with ground truth images, is 131, 072, 000.
+* Please note that in the original paper the number of flame and non-flame images was mistakenly written as 61 and 89. Here, we provide the correct number of images in the dataset. 
 
 ![Examples of images in the dataset](/imgs/ESFD.png "Examples of different categories of images.")
 
