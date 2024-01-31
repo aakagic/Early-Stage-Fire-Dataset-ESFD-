@@ -11,7 +11,7 @@ Early Stage Flame Dataset (ESFD) is a newly published dataset consisting of fire
 
 In Fig. 1. and Fig. 2. some examples of images with and without fire are provided, respectively. The data labeling process is conducted with Segments.ai. The ground truth images are normalized to values 0 and 1, where pixels representing flame are labeled as 1, while pixels representing non-flame objects are labeled as 0. The total number of pixels in the dataset, as represented with ground truth images, is 131, 072, 000.
 
-[^1] Please note that in the original paper the number of flame and non-flame images was mistakenly written as 61 and 89. Here, we provide the correct number of images in the dataset. 
+[^1]: Please note that in the original paper the number of flame and non-flame images was mistakenly written as 61 and 89. Here, we provide the correct number of images in the dataset. 
 
 ![Examples of images in the dataset](/imgs/ESFD.png "Examples of different categories of images.")
 
